@@ -15,7 +15,7 @@ app.add_middleware(
 
 @app.get('/')
 async def hello():
-    return { "text": "hello, Python world!" }
+    return { "text": "hello, docker Python world!" }
 
 @app.get('/group_list')
 async def group_list(
